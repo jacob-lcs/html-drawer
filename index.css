@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+.back {
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 9000;
+}
+.draw {
+  position: absolute;
+  z-index: 11;
+  right: -80%;
+  top: 0;
+  width: 80%;
+  height: 100%;
+  background: #607d8b;
+  margin-left: 20%;
+  z-index: 9500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+
+.overlay {
+  background: #86848480;
+  height: 100%;
+  z-index: 9400;
+  position: absolute;
+  width: 80%;
+  cursor: url("./img/pointer.png"), pointer;
+  display: none;
+}

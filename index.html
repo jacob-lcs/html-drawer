@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>left原生抽屉</title>
+
+        <link rel="stylesheet" href="./index.css">
+        <script src="./index.js"></script>
+    </head>
+    <body style="height: 100%">
+        <div style="display: flex">
+            <div style="width: 20%">
+                <button id="draw" type="button">收起全部抽屉</button>
+                <button id="draw_1" type="button">点击出现第一个抽屉</button>
+                <button id="draw_2" type="button">点击出现第二个抽屉</button>
+                <button id="draw_3" type="button">点击出现第三个抽屉</button>
+                <button id="draw_4" type="button">点击出现第四个抽屉</button>
+            </div>
+            <div style="width: 80%">
+                <div class="back">
+                    <div class="draw" style="background-color: tomato">
+                        1
+                    </div>
+                    <div class="draw" style="background-color: rgb(71, 255, 240)">
+                        2
+                    </div>
+                    <div class="draw" style="background-color: rgb(77, 255, 71)">
+                        3
+                    </div>
+                    <div class="draw" style="background-color: rgb(255, 71, 172)">
+                        4
+                    </div>
+                    <div id="overlay" class="overlay"></div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
